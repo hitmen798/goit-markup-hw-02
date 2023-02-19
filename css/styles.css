@@ -169,3 +169,15 @@ body {
 
 color: #434455;
 }
+.footer {
+    background: #2E2F42;
+}
+.footer-slogan {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
