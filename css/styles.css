@@ -16,26 +16,26 @@ body {
 }
 .header-logo {
     font-family: "Raleway";
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
 .logo-studio{
-    font-family: 'Raleway';
+    /* font-family: 'Raleway'; */
     /* font-style: normal; */
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
+    /* font-weight: 800; */
+    /* font-size: 18px; */
+    /* line-height: 1.33; */
     /* display: flex;
     align-items: center; */
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    /* letter-spacing: 0.03em; */
+    /* text-transform: uppercase; */
     color: #2E2F42;
 }
 .header-list {
@@ -51,12 +51,8 @@ body {
 	letter-spacing: 0.02em;
 	color: #2e2f42;
 }
-.header-link:hover {
+.header-link:hover, .header-link:focus {
     color: #404BBF;
-    text-decoration: underline var(--nav-color);
-}
-.header-link:focus {
-
 }
 .header-mail {
 	/* font-family: "Roboto"; */
@@ -67,19 +63,19 @@ body {
 	letter-spacing: 0.02em;
 	color: #434455;
 }
-.header-mail:hover {
+.header-mail:hover, .header-mail:focus {
     color: #404BBF;
 }
 .header-tel {
 	/* font-family: "Roboto"; */
-	font-style: normal;
-	font-weight: 400;
+	/* font-style: normal; */
+	/* font-weight: 400; */
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
 }
-.header-tel:hover {
+.header-tel:hover, .header-tel:focus {
     color: #404BBF;
 }
 .header-contacts{
@@ -152,7 +148,7 @@ body {
 .team-title {
     /* font-family: 'Roboto';
     font-style: normal; */
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -176,7 +172,7 @@ body {
 .team-slogan {
     /* font-family: 'Roboto';
     font-style: normal; */
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
