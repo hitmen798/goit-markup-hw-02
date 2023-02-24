@@ -83,7 +83,7 @@ body {
 }
 .header-tel {
 	/* font-family: "Roboto"; */
-	/* font-style: normal; */
+	font-style: normal;
 	/* font-weight: 400; */
 	font-size: 16px;
 	line-height: 1.5;
@@ -109,18 +109,18 @@ body {
     color: var(--white-color);
 }
 .hero-button {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+    font-family: 'Roboto';
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     /* display: flex; */
-    align-items: center;
+    /* align-items: center; */
     letter-spacing: 0.04em;
     color: var(--white-color);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
     padding: 16px 32px;
     gap: 10px;
     /* position: absolute; */
